@@ -1,0 +1,4 @@
+Django==1.11.11
+djangorestframework==3.9.0
+PyMySQL==1.0.2
+pytz==2021.1

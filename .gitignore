@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+﻿# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -110,20 +110,20 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# 忽略文件
+*.pyc
+*.log
+*.log.*
+*.py[cod]
+*$py.class
+*.so
+tmp_*.*
 
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
+# 忽略文件夹
+__pycache__/
+.idea/
+migrations/
+data/
+log/
+test/
+tmp_*/
