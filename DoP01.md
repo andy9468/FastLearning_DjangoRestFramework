@@ -39,7 +39,7 @@ python manage.py startapp booktest
 
 1）P01/init.py
 
-```
+```python
 import pymysql
 pymysql.install_as_MySQLdb()
 ```
