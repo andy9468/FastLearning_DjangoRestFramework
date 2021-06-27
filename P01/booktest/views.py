@@ -120,7 +120,7 @@ class BookDetailView(View):
             'bcomment': book.bcomment,
             'is_delete': book.is_delete
         }
-        
+
         # 6，响应
         return JsonResponse(book_dict, status=203)
 

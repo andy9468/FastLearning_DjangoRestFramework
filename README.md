@@ -8,6 +8,7 @@
 
 - P01
   - django1.11.11实现原始版restful风格的API。——实施步骤详见 [DoP01.md](DoP01.md) 
+  - django单元测试tests.py：python manage.py test booktest
 - P02
   - djangorestframework3.9.0实现
     - P02_1
